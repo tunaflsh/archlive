@@ -1,0 +1,15 @@
+# remove from airootfs!
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Type = Package
+Target = nvidia-open-dkms
+Target = linux-zen
+
+[Action]
+Description = Building the NVIDIA DKMS module for linux-zen then clean up build tree
+When = PostTransaction
+Depends = dkms
+Depends = mkinitcpio
+Depends = bash
+Exec = /bin/sh -c 'dkms autoinstall && mkinitcpio -P && rm -rf /usr/src/nvidia-* /usr/src/linux-zen-* /var/lib/dkms/*/*/build /usr/lib/modules/*/build'

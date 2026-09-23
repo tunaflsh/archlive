@@ -54,6 +54,7 @@ linux-atm
 linux-firmware
 linux-firmware-marvell
 linux-zen
+linux-zen-headers
 livecd-sounds
 lsscsi
 lvm2
@@ -77,6 +78,7 @@ nfs-utils
 nilfs-utils
 nmap
 ntfsprogs
+nvidia-open-dkms
 nvme-cli
 open-iscsi
 open-vm-tools
