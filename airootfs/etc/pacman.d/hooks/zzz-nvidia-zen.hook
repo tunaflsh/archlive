@@ -12,4 +12,4 @@ When = PostTransaction
 Depends = dkms
 Depends = mkinitcpio
 Depends = bash
-Exec = /bin/sh -c 'dkms autoinstall && mkinitcpio -P && rm -rf /usr/src/nvidia-* /usr/src/linux-zen-* /var/lib/dkms/*/*/build /usr/lib/modules/*/build'
+Exec = /bin/sh -c 'dkms autoinstall && mkinitcpio -P ; rm -rf /usr/src/nvidia-* /usr/src/linux-zen-* /var/lib/dkms/*/*/build /usr/lib/modules/*/build'
