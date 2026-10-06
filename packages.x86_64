@@ -8,6 +8,7 @@ bcachefs-tools
 bind
 bolt
 brltty
+btop
 btrfs-progs
 clonezilla
 cloud-init
@@ -27,6 +28,7 @@ espeakup
 ethtool
 exfatprogs
 f2fs-tools
+fastfetch
 fatresize
 foot-terminfo
 fsarchiver
@@ -51,7 +53,17 @@ lftp
 libfido2
 libusb-compat
 linux-atm
-linux-firmware
+linux-firmware-amd
+linux-firmware-amdgpu
+linux-firmware-atheros
+linux-firmware-broadcom
+linux-firmware-cirrus
+linux-firmware-intel
+linux-firmware-mediatek
+linux-firmware-other
+linux-firmware-radeon
+linux-firmware-realtek
+linux-firmware-ti
 linux-firmware-marvell
 linux-zen
 linux-zen-headers
@@ -76,10 +88,12 @@ nbd
 ndisc6
 nfs-utils
 nilfs-utils
+niri
 nmap
 ntfsprogs
 nvidia-open-dkms
 nvme-cli
+nvtop
 open-iscsi
 open-vm-tools
 openconnect
@@ -90,6 +104,8 @@ partclone
 parted
 partimage
 pcsclite
+pipewire
+pipewire-audio
 ppp
 pptpclient
 pv
@@ -98,6 +114,7 @@ refind
 reflector
 rsync
 rxvt-unicode-terminfo
+s-tui
 screen
 sdparm
 sequoia-sq
@@ -123,6 +140,8 @@ virtualbox-guest-utils-nox
 vpnc
 wireless-regdb
 wireless_tools
+wireplumber
+wl-clipboard
 wpa_supplicant
 wvdial
 xdg-utils
